@@ -1,7 +1,7 @@
 {
-  "name": "form",
-  "version": "1.0.0",
-  "description": "Package that manages forms",
+  "name": "des_react_form",
+  "version": "1.0.1",
+  "description": "Dead simple form component for react js",
   "main": "build/index.js",
   "scripts": {
     "build": "webpack"
@@ -24,7 +24,9 @@
     "react": "^18.0.0",
     "react-detect-offline": "^2.4.5",
     "react-dom": "^18.0.0",
+    "axios": "^0.26.1",
     "react-toastify": "^9.0.1",
+    "react-router-dom": "^6.3.0",
     "yup": "^0.32.11"
   }
 }

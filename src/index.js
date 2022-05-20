@@ -7,25 +7,7 @@ import Checkbox from './components/Checkbox'
 import Select from './components/Select'
 import Form from './components/Form'
 
-// const Default = {
-//     Form,
-//     Text,
-//     TextArea,
-//     Checkbox,
-//     Select,
-// };
-
-// export Form;
-
-// export {
-//     Form
-// };
-// export {
-//     Text
-// };
-// export default Form;
-// export default Default;
-export default {
+export {
     Form,
     Text,
     TextArea,
