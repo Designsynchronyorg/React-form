@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-export default class FullButton extends Component<{contClass?: string, btnClass?: string, disabled?: boolean, textSize?: string, text: string, type: any}> {
+export default class FullButton extends Component {
     render() {
         let textSize = '';
         switch (this.props.textSize) {
