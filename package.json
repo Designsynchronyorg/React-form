@@ -6,6 +6,11 @@
   "scripts": {
     "build": "tsc"
   },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
   "author": "Design Synchrony",
   "license": "MIT",
   "devDependencies": {

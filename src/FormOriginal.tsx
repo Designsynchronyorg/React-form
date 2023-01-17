@@ -4,7 +4,7 @@ import * as Yup from "yup";
 import axios from "axios";
 import { Navigate } from "react-router-dom";
 import AlertText from "./features/AlertText";
-import { MyConfig } from "./MyConfig";
+// import { MyConfig } from "./MyConfig";
 import { string } from "yup/lib/locale";
 
 export default class MyForm extends Component<
@@ -124,6 +124,13 @@ export default class MyForm extends Component<
   handleSubmit(values, setSubmitting) {
     // start submitting
     this.startSubmitting();
+
+    let MyConfig: { apiUrl: string } = {
+      apiUrl: "",
+    };
+
+    //  MyConfig.apiUrl = " ";
+    // console.log(MyConfig.apiUrl);
 
     // handle submit
     // if there's a url
