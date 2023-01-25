@@ -7,6 +7,10 @@ import AlertText from "./features/AlertText";
 // import { MyConfig } from "./MyConfig";
 import { string } from "yup/lib/locale";
 
+let MyConfig: { apiUrl: string } = {
+  apiUrl: " ",
+};
+
 export default class MyForm extends Component<
   {
     redirectOnSuccess: string;
@@ -124,10 +128,6 @@ export default class MyForm extends Component<
   handleSubmit(values, setSubmitting) {
     // start submitting
     this.startSubmitting();
-
-    let MyConfig: { apiUrl: string } = {
-      apiUrl: "",
-    };
 
     //  MyConfig.apiUrl = " ";
     // console.log(MyConfig.apiUrl);

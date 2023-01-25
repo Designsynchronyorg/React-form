@@ -1,5 +1,5 @@
 {
-  "name": "des-react-form",
+  "name": "des-react-form-v2",
   "version": "2.0.0",
   "description": "Re-usable simple form component for typescript react js",
   "main": "dist/esm/index.js",
